@@ -1,3 +1,9 @@
+#Time tracking
 codealike.json
 
 node_modules
+
+.vscode/*
+
+#generated output
+dist

@@ -5,8 +5,10 @@
   "module": "dist/index.es.js",
   "files": ["dist"],
   "types": "dist/index.d.ts",
-  "description": "Description ",
-    "scripts": {
+  "description": "An npm module to manage event registration on eventbrite for authenticated user",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
