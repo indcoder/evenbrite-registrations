@@ -1,0 +1,31 @@
+{
+  "name": "event-registration",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
+  "description": "Description ",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indcoder/evenbrite-registrations.git"
+  },
+  "keywords": [
+    "eventbrite",
+    "registration"
+  ],
+  "author": "Augustine Correa <augustine.correa@hackmum.in> (http://hackmum.in)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indcoder/evenbrite-registrations/issues"
+  },
+  "homepage": "https://github.com/indcoder/evenbrite-registrations#readme",
+  "devDependencies": {
+    "rollup": "^1.25.2",
+    "rollup-plugin-typescript2": "^0.24.3",
+    "typescript": "^3.6.4"
+  }
+}
