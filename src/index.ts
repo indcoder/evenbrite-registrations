@@ -1,0 +1,1 @@
+export const getUpcomingEvents: string(text: string) => text
