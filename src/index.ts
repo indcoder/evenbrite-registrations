@@ -1,1 +1,1 @@
-export const greet = () => console.log('Hello, world!')
+export const getUpcomingEvents: string(text: string) => text
